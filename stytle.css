@@ -44,6 +44,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.buy {
+  display: flex;
+}
 #next {
   display: flex;
   width: 50px;
@@ -54,4 +57,15 @@
 }
 .container > b {
   text-size-adjust: 10px;
+}
+.total {
+  font-family: "Roboto";
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
