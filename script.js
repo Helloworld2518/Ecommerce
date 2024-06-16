@@ -68,6 +68,6 @@ function send() {
   var rekening = document.getElementById("norek").value;
   var pesan = "Nama: ${nama}/n Nomor rekening: ${rekening}";
   var nomor = "+6281901242626";
-  var value = "https://wa.me/" + nomor + "?text=" + pesan;
+  var value = "https://wa.me/" + nomor + "?text=" + nama;
   window.open(value, "_blank").focus();
 }
