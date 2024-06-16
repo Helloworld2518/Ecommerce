@@ -66,8 +66,14 @@ function harga3() {
 function send() {
   var nama = document.getElementById("username").value;
   var rekening = document.getElementById("norek").value;
-  var pesan = "Nama: ${nama}/n Nomor rekening: ${rekening}";
+  var pesan =
+    "Nama: " +
+    nama +
+    "\nNomor Rekening: " +
+    rekening +
+    "\nTotal Pembayaran: " +
+    harga;
   var nomor = "+6281901242626";
-  var value = "https://wa.me/" + nomor + "?text=" + nama;
+  var value = "https://wa.me/" + nomor + "?text=" + pesan;
   window.open(value, "_blank").focus();
 }
