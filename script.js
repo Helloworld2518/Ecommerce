@@ -63,17 +63,21 @@ function harga3() {
   }
 }
 
+//fungsi ngirim
 function send() {
   var nama = document.getElementById("username").value;
   var rekening = document.getElementById("norek").value;
-  var pesan =
-    "Nama: " +
-    nama +
-    "\nNomor Rekening: " +
-    rekening +
-    "\nTotal Pembayaran: " +
-    harga;
+  var pesan = `
+  Nama: ${nama}
+  Nomor Rekening: ${rekening}
+  Total Pembayaran: ${harga}
+`;
   var nomor = "+6281901242626";
   var value = "https://wa.me/" + nomor + "?text=" + pesan;
-  window.open(value, "_blank").focus();
+  console.log(pesan);
+}
+
+function theme() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
 }
