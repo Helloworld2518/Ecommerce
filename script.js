@@ -165,7 +165,7 @@ function send() {
 `;
   var nomor = "+6281901242626";
   var value = "https://wa.me/" + nomor + "?text=" + pesan;
-  console.log(pesan);
+  window.open(value, "_blank").focus();
 }
 
 function theme() {
