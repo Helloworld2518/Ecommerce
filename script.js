@@ -63,6 +63,97 @@ function harga3() {
   }
 }
 
+function harga4() {
+  var check = document.getElementsByClassName("barang1");
+  var barang = Number(document.getElementsByClassName("barang1")[3].value);
+
+  if (check[3].checked == true) {
+    harga += barang;
+    akhir();
+  } else if (check[3].checked == false) {
+    harga -= barang;
+    akhir();
+  }
+}
+
+function harga5() {
+  var check = document.getElementsByClassName("barang1");
+  var barang = Number(document.getElementsByClassName("barang1")[4].value);
+
+  if (check[4].checked == true) {
+    harga += barang;
+    akhir();
+  } else if (check[4].checked == false) {
+    harga -= barang;
+    akhir();
+  }
+}
+
+function harga6() {
+  var check = document.getElementsByClassName("barang1");
+  var barang = Number(document.getElementsByClassName("barang1")[5].value);
+
+  if (check[5].checked == true) {
+    harga += barang;
+    akhir();
+  } else if (check[5].checked == false) {
+    harga -= barang;
+    akhir();
+  }
+}
+
+function harga7() {
+  var check = document.getElementsByClassName("barang1");
+  var barang = Number(document.getElementsByClassName("barang1")[6].value);
+
+  if (check[6].checked == true) {
+    harga += barang;
+    akhir();
+  } else if (check[6].checked == false) {
+    harga -= barang;
+    akhir();
+  }
+}
+
+function harga8() {
+  var check = document.getElementsByClassName("barang1");
+  var barang = Number(document.getElementsByClassName("barang1")[7].value);
+
+  if (check[7].checked == true) {
+    harga += barang;
+    akhir();
+  } else if (check[7].checked == false) {
+    harga -= barang;
+    akhir();
+  }
+}
+
+function harga9() {
+  var check = document.getElementsByClassName("barang1");
+  var barang = Number(document.getElementsByClassName("barang1")[8].value);
+
+  if (check[8].checked == true) {
+    harga += barang;
+    akhir();
+  } else if (check[8].checked == false) {
+    harga -= barang;
+    akhir();
+  }
+}
+
+function harga10() {
+  var check = document.getElementsByClassName("barang1");
+  var barang = Number(document.getElementsByClassName("barang1")[9].value);
+
+  if (check[9].checked == true) {
+    harga += barang;
+    akhir();
+  } else if (check[9].checked == false) {
+    harga -= barang;
+    akhir();
+  }
+}
+
 //fungsi ngirim
 function send() {
   var nama = document.getElementById("username").value;
